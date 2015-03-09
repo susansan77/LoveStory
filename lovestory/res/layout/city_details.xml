@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/n"
+    android:orientation="vertical" >
+      <TextView
+        android:id="@+id/cityName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="城市名字"
+        android:textSize="20px"
+        android:textColor="#FFFFFF"/>
+     <Spinner
+        android:id="@+id/attraction"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/cityBriefInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="城市简介"
+        android:textSize="15px"
+        android:textColor="#FFFFFF"/>
+   <TextView
+        android:id="@+id/cityDetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="详细介绍"
+        android:textSize="15px"
+        android:textColor="#FFFFFF"/>
+
+</LinearLayout>

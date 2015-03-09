@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="love.luomanshi"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk android:minSdkVersion="7" />
+
+    <application
+        android:persistent="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name" >
+        <activity
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:label="@string/app_name"
+            android:name=".LovestoryActivity" >
+            
+        </activity>
+        <activity
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:label="@string/app_name"
+            android:name=".Gallerymy" >
+            
+        </activity>
+        <activity
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:label="@string/app_name"
+            android:name=".Tab1" >
+            
+        </activity>
+        <activity
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:label="@string/app_name"
+            android:name=".Tab2" >
+            
+        </activity>
+        <activity
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:label="@string/app_name"
+            android:name=".Tab3" >
+            
+        </activity>
+        <activity
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:label="@string/app_name"
+            android:name=".Tab4" >
+            
+        </activity>
+        <activity
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:label="@string/app_name"
+            android:name=".TabTab" >
+            
+        </activity>
+        <activity
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:label="@string/app_name"
+            android:name=".Imageswitcher" >
+            
+        </activity>
+        <activity
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:label="@string/app_name"
+            android:name=".Chat" >
+            
+        </activity>
+        <activity
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:label="@string/app_name"
+            android:name=".Mapactivity" >
+            
+        </activity>
+        <activity
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:label="@string/app_name"
+            android:name=".Searchuser" >
+            
+        </activity>
+        <activity
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:label="@string/app_name"
+            android:name=".Register" >
+            
+        </activity>
+        <activity
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:label="@string/app_name"
+            android:name=".Justlogin" >
+            
+        </activity>
+        <activity
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:label="@string/app_name"
+            android:name="romance.route.CityDetail" >
+            
+        </activity>
+        <activity
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:label="@string/app_name"
+            android:name="romance.route.SelectRoute" >
+            
+        </activity>
+        <activity
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:label="@string/app_name"
+            android:name="romance.route.CityList" >  
+        </activity>
+         <activity
+          
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            android:name=".First" >
+            <intent-filter >
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:label="@string/app_name"
+            android:name=".Mainscreen" >
+            
+        </activity>
+       
+        <uses-library android:name="com.google.android.maps"/>
+    </application>
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.INTERNET" ></uses-permission>
+</manifest>
